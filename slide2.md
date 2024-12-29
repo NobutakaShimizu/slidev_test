@@ -1,6 +1,6 @@
 ---
 # You can also start simply with 'default'
-theme: default
+theme: seriph
 # random image from a curated Unsplash collection by Anthony
 # like them? see https://unsplash.com/collections/94734566/slidev
 background: https://cover.sli.dev
@@ -20,6 +20,12 @@ drawings:
 transition: slide-left
 # enable MDC Syntax: https://sli.dev/features/mdc
 mdc: true
+---
+
+# Movie Test2
+
+<video controls src="./Bo2.mp4" title="Title"></video>
+
 ---
 
 # Welcome to Slidev
@@ -42,12 +48,6 @@ Presentation slides for developers
 <!--
 The last comment block of each slide will be treated as slide notes. It will be visible and editable in Presenter Mode along with the slide. [Read more in the docs](https://sli.dev/guide/syntax.html#notes)
 -->
----
-
-# Movie Test
-
-<video controls src="./Bo2.mp4" title="Title"></video>
-
 
 ---
 transition: fade-out
@@ -557,7 +557,7 @@ Learn more: [Mermaid Diagrams](https://sli.dev/features/mermaid) and [PlantUML D
 ---
 foo: bar
 dragPos:
-  square: 668,23,167,_,-16
+  square: 691,32,167,_,-16
 ---
 
 # Draggable Elements
